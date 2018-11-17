@@ -19,6 +19,7 @@ function whileLoop(countdown){
 function doWhileLoop(arrayIn){
   do {
  arrayIn.pop()
-} while (arrayIn.length > 0 && maybeTrue());
+} while (arrayIn.length > 0 && maybeTrue()){
 return arrayIn
+}
 }
