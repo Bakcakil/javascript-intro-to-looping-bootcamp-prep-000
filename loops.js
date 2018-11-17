@@ -8,10 +8,3 @@ function forLoop(array){
 }
 return array
 }
-
-function whileLoop(n){
-  while (let countdown = 100; countdown > 0; --countdown) {
-    n.push(--countdown);
-  }
-  return 'done'
-}
