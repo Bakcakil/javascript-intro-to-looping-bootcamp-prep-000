@@ -16,10 +16,13 @@ function whileLoop(countdown){
   return('done')
 }
 
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
 function doWhileLoop(arrayIn){
   do {
  arrayIn.pop()
-} while (arrayIn.length > 0 && maybeTrue()){
-return arrayIn
-}
+} while (arrayIn.length > 0 && maybeTrue());
+return arrayIn}
 }
