@@ -15,3 +15,10 @@ function whileLoop(countdown){
   }
   return('done')
 }
+
+function doWhileLoop(arrayIn){
+  do {
+ arrayIn.pop()
+} while (arrayIn.length > 0 && maybeTrue());
+return arrayIn
+}
