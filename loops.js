@@ -5,5 +5,5 @@ function forLoop(n) {
   } else {
     n.push("I am ${i} strange loops.");
   }
-return n
+return n;
 }
